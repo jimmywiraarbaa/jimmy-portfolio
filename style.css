@@ -4,7 +4,7 @@
 }
 
 section{
-    padding-top: 70px;
+    padding-top: 128px;
     position: relative;
 }
 
@@ -16,7 +16,7 @@ section::before{
     color: gray;
     opacity: 0.25;
     position: absolute;
-    top: -25px;
+    top: 5px;
     left: -40px;
 }
 
@@ -69,10 +69,6 @@ section::before{
 }
 
 /* Home End */
-
-.about, .work, .contact{
-        margin-top: 48px;
-    }
 
 /* About Start */
 .about::before{
