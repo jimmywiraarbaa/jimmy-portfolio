@@ -25,7 +25,7 @@ section::before{
     font-size: 72px;
 }
 
-.home h2{
+.home h3{
     font-size: 48px;
 }
 
@@ -38,6 +38,10 @@ section::before{
     border: 3px solid black;
     background-color: black;
     color: white;
+}
+
+.home img{
+    width: 100%;
 }
 
 .home .arrow img{
@@ -59,7 +63,16 @@ section::before{
         transform: translateY(0);
     }
 }
+
+.home .col-4 img{
+    width: 100%;
+}
+
 /* Home End */
+
+.about, .work, .contact{
+        margin-top: 48px;
+    }
 
 /* About Start */
 .about::before{
@@ -162,3 +175,25 @@ section::before{
 }
 
 /* Contact End */
+
+
+/* Media Query */
+@media only screen and (max-width: 768px) {
+    .about, .work, .contact{
+        margin-top: 48px;
+    }
+
+    .home img{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .about, .work, .contact{
+        margin-top: 48px;
+    }
+    section::before{
+        left: 5px;
+        font-size: 64px;
+    }
+}

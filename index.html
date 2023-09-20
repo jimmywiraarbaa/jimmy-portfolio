@@ -28,16 +28,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Work</a>
+                        <a class="nav-link" href="#work">Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -47,23 +47,23 @@
 
     <!-- Home Start -->
     <section id="home" class="home container">
-        <div class="row d-flex align-items-center">
-            <div class="col-8">
+        <div class="row d-flex align-items-center flex-md-row flex-column-reverse">
+            <div class="col-12 col-md-8">
                 <h3 class="fw-semibold">Hi! I am</h3>
                 <h1 class="fw-bold">Jimmy</h1>
                 <p>I am Software Engineer based in Indonesia</p>
                 <a class="btn button" href="images/potrait.png" download="">Resume</a>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-4 d-flex justify-content-md-end justify-content-center">
                 <img src="images/potrait.png" alt="Potrait">
             </div>
         </div>
 
         <!-- More Info -->
-        <div class="w-100 arrow d-flex align-items-center flex-column mt-5">
-            <a class="text-decoration-none text-dark" href="#about">More info</a>
+        <a href="#about" class="text-decoration-none w-100 arrow d-flex align-items-center flex-column mt-5">
+            <div class="text-dark">More info</div>
             <img id="arrow" class="mt-2" src="images/arrow.svg" alt="arrow icon">
-        </div>
+        </a>
     </section>
     <!-- Home End -->
 
@@ -129,7 +129,7 @@
                     totam in quibusdam sed consequatur! Magnam laboriosam delectus dicta velit, quidem assumenda debitis
                     odio culpa dolorem ducimus sint ex recusandae! Hic architecto expedita laudantium?</p>
             </div>
-            <div class="col work-img">
+            <div class="work-img">
                 <div id="work-1" class="work-img-item">
                     <img src="images/work-1.png" alt="work 1" id="work-1">
                 </div>
@@ -150,26 +150,26 @@
     <!-- Contact Start -->
     <section id="contact" class="contact container">
         <div class="row d-flex align-items-center gap-5">
-            <div class="col">
+            <div class="col-12 col-lg-6">
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero numquam, ab eligendi qui praesentium
                     ea.</p>
                 <div class="row">
                     <div class="col d-flex align-items-center">
-                        <img src="images/Facebook.svg" alt="facebook icon">
-                        <p>Jimmy Wira Arba'a</p>
+                        <img class="wd-5" src="images/Facebook.svg" alt="facebook icon">
+                        <p class="mb-0 ms-2">Jimmy Wira Arba'a</p>
                     </div>
                     <div class="col d-flex align-items-center">
-                        <img src="images/Instagram.svg" alt="instagram icon">
-                        <p>@wiraarbaa_</p>
+                        <img class="wd-5" src="images/Instagram.svg" alt="instagram icon">
+                        <p class="mb-0 ms-2">@wiraarbaa_</p>
                     </div>
                     <div class="col d-flex align-items-center">
-                        <img src="images/Twitter.svg" alt="twitter icon">
-                        <p>dont have account</p>
+                        <img class="wd-5" src="images/Twitter.svg" alt="twitter icon">
+                        <p class="mb-0 ms-2">dont have account</p>
                     </div>
                 </div>
             </div>
             <!-- Form -->
-            <div class="col">
+            <div class="col-12 col-lg-5">
                 <form class="contact-form" onsubmit="onFormSubmit(event)">
                     <div class="mb-3">
                         <label for="inp_email" class="form-label">Email address</label>
