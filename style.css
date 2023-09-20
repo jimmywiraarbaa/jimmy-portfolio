@@ -142,3 +142,23 @@ section::before{
     font-size: 24px;
 }
 /* Work End */
+
+/* Contact Start */
+.contact{
+    padding-bottom: 128px;
+}
+
+.contact::before{
+    content: 'Contact';
+}
+
+.contact-form{
+    border: 1px solid black;
+    padding: 64px 32px;
+}
+
+.form-label{
+    font-weight: 700;
+}
+
+/* Contact End */
